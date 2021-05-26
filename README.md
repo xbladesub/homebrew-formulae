@@ -1,7 +1,7 @@
 # Xbladesub Homebrew Formulae
 
 ```terminal
-$ brew tap xbladsub/formulae
+$ brew tap xbladesub/formulae
 ```
 
 ## Currently On Tap
