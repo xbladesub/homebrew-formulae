@@ -1,4 +1,4 @@
-# Xbladsub Homebrew Formulae
+# Xbladesub Homebrew Formulae
 
 ```terminal
 $ brew tap xbladsub/formulae
