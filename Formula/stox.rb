@@ -14,6 +14,8 @@ class Stox < Formula
   end
   
   test do
-    system "stox", "help", "-n"
+    system "stox", "help", "-n",
+    system "stox", "all", "-r",
+    system "stox", "list"
   end
 end
