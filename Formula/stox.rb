@@ -15,7 +15,7 @@ class Stox < Formula
   end
 
   test do
-#      system bin/"stox", "--help"
-      assert_equal "Delete all lists? (y / n): ", del
+      output = shell_output("#{bin}/stox del")
+      assert_match("Delete all lists? (y / n):", output)
   end
 end
