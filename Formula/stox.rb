@@ -16,6 +16,6 @@ class Stox < Formula
 
   test do
       output = shell_output("#{bin}/stox del")
-      assert_match("Delete all lists? (y / n):", output)
+      assert_match("\nDelete all lists? (y / n): ", output)
   end
 end
