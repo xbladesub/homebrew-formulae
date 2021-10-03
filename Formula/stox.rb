@@ -2,7 +2,7 @@ class Stox < Formula
   desc "Swift command-line tool to view and export tickers from finviz.com"
   homepage "https://github.com/xbladesub/stox"
   url "https://github.com/xbladesub/stox/archive/1.0.3.tar.gz"
-  sha256 "f1070f1f3fa060d30a7ce8a224fa874487d32ef7692156095f2bc2cefed897d2"
+  sha256 "0a803cb58688450bcc4be93ee80d8ad09247490c64a65eab717909ea88632d0c"
   license "MIT"
 
   depends_on xcode: "12.4"
